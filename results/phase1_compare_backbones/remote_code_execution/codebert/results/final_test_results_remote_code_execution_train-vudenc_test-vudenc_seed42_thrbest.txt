@@ -1,0 +1,14 @@
+Final Test for remote_code_execution_train-vudenc_test-vudenc_seed42 @ thr=0.4906 (from validation)
+base: remote_code_execution_train-vudenc_test-vudenc_seed42
+mode: remote_code_execution
+backbone: microsoft/codebert-base
+seed: 42
+accuracy: 0.9982
+precision: 0.9771
+recall: 0.9884
+f1: 0.9827
+roc_auc: 0.9980
+ece: 0.3037
+inference_time_ms: 18095.3770
+throughput: 461.0017
+gpu_vram: 1336.1

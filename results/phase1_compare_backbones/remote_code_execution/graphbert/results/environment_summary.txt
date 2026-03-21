@@ -1,0 +1,13 @@
+Operating System: Linux-6.6.105+-x86_64-with-glibc2.35
+CPU: x86_64
+GPU: NVIDIA A100-SXM4-80GB
+Memory: 167.05 GB
+Deep Learning Framework: PyTorch 2.8.0+cu126
+CUDA Version: 12.6
+Transformers: 4.57.1
+Scikit-learn: 1.6.1
+Gensim: 4.4.0
+Python Version: 3.12.12
+CUDA Available: True
+CPU Cores: 12
+Timestamp: 2025-10-28 05:01:40
