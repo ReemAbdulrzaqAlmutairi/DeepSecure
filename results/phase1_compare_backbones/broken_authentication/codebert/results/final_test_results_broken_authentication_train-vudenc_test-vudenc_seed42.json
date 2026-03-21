@@ -1,0 +1,16 @@
+{
+  "mode": "broken_authentication",
+  "base": "broken_authentication_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/codebert-base",
+  "seed": "42",
+  "f1_thr050": 0.9639934533551555,
+  "f1_thr_best": 0.9624183006535948,
+  "roc_auc": 0.9991894556208697,
+  "ece": 0.2776783776241626,
+  "inference_time_ms": 15083.6630859375,
+  "throughput": 457.1833751994329,
+  "peak_vram_mb": 1336.07373046875,
+  "best_threshold": 0.4200494587421417,
+  "n_samples": 6896,
+  "timestamp": "2025-11-02T11:55:41.062087+00:00"
+}

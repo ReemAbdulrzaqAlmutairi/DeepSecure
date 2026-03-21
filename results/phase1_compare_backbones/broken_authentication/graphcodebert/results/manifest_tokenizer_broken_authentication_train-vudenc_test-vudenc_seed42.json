@@ -1,0 +1,38 @@
+{
+  "mode": "broken_authentication",
+  "base": "broken_authentication_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/graphcodebert-base",
+  "max_seq_len": 200,
+  "tok_batch": 1024,
+  "train_stats": {
+    "size": 32183,
+    "avg_effective_len": 69.894,
+    "maxlen_ratio": 0.0004,
+    "label_dist": {
+      "0": 29374,
+      "1": 2809
+    }
+  },
+  "val_stats": {
+    "size": 6897,
+    "avg_effective_len": 69.754,
+    "maxlen_ratio": 0.0001,
+    "label_dist": {
+      "0": 6263,
+      "1": 634
+    }
+  },
+  "final_stats": {
+    "size": 6896,
+    "avg_effective_len": 69.84,
+    "maxlen_ratio": 0.0001,
+    "label_dist": {
+      "0": 6286,
+      "1": 610
+    }
+  },
+  "label_origin_policy": "legacy_0_vuln",
+  "label_policy_applied": "normalized_to_1=vuln_0=clean",
+  "normalized_at": "tokenize",
+  "normalized_once_checksum": "b9d1e396bb5e17310d18b3b1537dbf34a453ffb93177705aacc70b01b356c8d3"
+}
