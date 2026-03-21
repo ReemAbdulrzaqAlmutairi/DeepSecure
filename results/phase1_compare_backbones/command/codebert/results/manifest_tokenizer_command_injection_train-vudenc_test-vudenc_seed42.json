@@ -1,0 +1,38 @@
+{
+  "mode": "command_injection",
+  "base": "command_injection_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/codebert-base",
+  "max_seq_len": 200,
+  "tok_batch": 1024,
+  "train_stats": {
+    "size": 49993,
+    "avg_effective_len": 67.239,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "0": 47716,
+      "1": 2277
+    }
+  },
+  "val_stats": {
+    "size": 10712,
+    "avg_effective_len": 67.323,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "0": 10231,
+      "1": 481
+    }
+  },
+  "final_stats": {
+    "size": 10713,
+    "avg_effective_len": 67.082,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "0": 10244,
+      "1": 469
+    }
+  },
+  "label_origin_policy": "legacy_0_vuln",
+  "label_policy_applied": "normalized_to_1=vuln_0=clean",
+  "normalized_at": "tokenize",
+  "normalized_once_checksum": "4b780b60ae350edb484c653868fa3710a40d524a70c76dc96b8747486d02bf35"
+}
