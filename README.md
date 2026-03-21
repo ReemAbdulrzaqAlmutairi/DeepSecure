@@ -135,12 +135,7 @@ The paper reports results over five independent training runs with seeds {7, 42,
 
 The data split (makemodel + tokenize) is performed **once** with SEED=42 and reused across all training seeds. Only the training seed changes between runs, varying weight initialization and dropout stochasticity.
 
-Example for SQL Injection, seed 7:
-```
-MODE=sql SEED=7 RUNNAME=seed7 python3 scripts/train_CodeBERT_BiLSTM_CNN.py
-MODE=sql SEED=7 RUNNAME=seed7 python3 scripts/validate_CodeBERT_BiLSTM_CNN.py
-MODE=sql SEED=7 RUNNAME=seed7 python3 scripts/test-CodeBERT_BiLSTM_CNN.py
-```
+
 
 
 ## Experimental Results
@@ -228,7 +223,7 @@ All detailed outputs, logs, plots, and evaluation artifacts are in the correspon
 ## Installation
 
 ```
-git clone https://github.com/ReemAlmutairi/DeepSecure.git
+git clone https://github.com/ReemAbdulrzaqAlmutairi/DeepSecure.git
 cd DeepSecure
 pip install -r requirements.txt
 ```
