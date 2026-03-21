@@ -1,0 +1,14 @@
+Experimental Environment,Environment Configuration
+Operating System,Linux-6.6.105+-x86_64-with-glibc2.35
+CPU,x86_64
+GPU,NVIDIA A100-SXM4-40GB
+Memory,83.47 GB
+Deep Learning Framework,PyTorch 2.8.0+cu126
+CUDA Version,12.6
+Transformers,4.57.1
+Scikit-learn,1.6.1
+Gensim,4.4.0
+Python Version,3.12.12
+CUDA Available,True
+CPU Cores,12
+Timestamp,2025-11-01 11:54:13
