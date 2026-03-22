@@ -1,0 +1,16 @@
+{
+  "mode": "xss",
+  "base": "xss_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/graphcodebert-base",
+  "seed": "2025",
+  "f1_thr050": 0.9644970414201184,
+  "f1_thr_best": 0.9616519174041298,
+  "roc_auc": 0.9986709288190536,
+  "ece": 0.2285605331360801,
+  "inference_time_ms": 8164.603515625,
+  "throughput": 448.154033811635,
+  "peak_vram_mb": 1335.48779296875,
+  "best_threshold": 0.4344085454940796,
+  "n_samples": 3659,
+  "timestamp": "2025-11-11T20:13:39.724258+00:00"
+}
