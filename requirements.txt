@@ -1,0 +1,24 @@
+# DeepSecure — Python dependencies
+# Tested on Python 3.12.0, CUDA 12.1, Google Colab Pro (A100)
+
+# Deep learning
+torch==2.1.0
+transformers==4.35.0
+tokenizers==0.15.0
+
+# Data & evaluation
+numpy==1.26.1
+pandas==2.1.3
+scikit-learn==1.3.2
+scipy
+
+# Visualization
+matplotlib==3.8.0
+
+# Dataset construction
+requests
+pydriller
+requests-oauthlib
+
+# Utilities
+tqdm
