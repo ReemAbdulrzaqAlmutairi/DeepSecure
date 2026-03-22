@@ -1,0 +1,13 @@
+Final Test for xss_train-vudenc_test-vudenc_seed42
+base: xss_train-vudenc_test-vudenc_seed42
+mode: xss
+backbone: microsoft/codebert-base
+seed: 42
+roc_auc: 0.9975
+ece: 0.2214
+inference_time_ms: 8129.2437
+throughput: 450.1034
+gpu_vram: 1336.1
+
+@ thr=0.5000 -> Acc=0.9918, Prec=0.9551, Rec=0.9551, F1=0.9551
+@ thr=0.0819 (from val) -> Acc=0.9926, Prec=0.9501, Rec=0.9701, F1=0.9600

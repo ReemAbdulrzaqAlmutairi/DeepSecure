@@ -1,0 +1,38 @@
+{
+  "mode": "xss",
+  "base": "xss_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/codebert-base",
+  "max_seq_len": 200,
+  "tok_batch": 1024,
+  "train_stats": {
+    "size": 17076,
+    "avg_effective_len": 73.633,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "0": 15596,
+      "1": 1480
+    }
+  },
+  "val_stats": {
+    "size": 3660,
+    "avg_effective_len": 73.718,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "0": 3330,
+      "1": 330
+    }
+  },
+  "final_stats": {
+    "size": 3659,
+    "avg_effective_len": 73.8,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "0": 3325,
+      "1": 334
+    }
+  },
+  "label_origin_policy": "legacy_0_vuln",
+  "label_policy_applied": "normalized_to_1=vuln_0=clean",
+  "normalized_at": "tokenize",
+  "normalized_once_checksum": "4a7bc1f0cf9f6dcc91d1ad7b41359175ce54285d2833e7a167d138e3eddbb7ff"
+}
