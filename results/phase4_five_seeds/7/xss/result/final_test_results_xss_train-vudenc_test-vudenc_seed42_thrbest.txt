@@ -1,0 +1,14 @@
+Final Test for xss_train-vudenc_test-vudenc_seed42 @ thr=0.1828 (from validation)
+base: xss_train-vudenc_test-vudenc_seed42
+mode: xss
+backbone: microsoft/graphcodebert-base
+seed: 7
+accuracy: 0.9926
+precision: 0.9582
+recall: 0.9611
+f1: 0.9596
+roc_auc: 0.9985
+ece: 0.3468
+inference_time_ms: 8156.3999
+throughput: 448.6048
+gpu_vram: 1335.5
