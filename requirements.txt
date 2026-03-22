@@ -10,15 +10,15 @@ tokenizers==0.15.0
 numpy==1.26.1
 pandas==2.1.3
 scikit-learn==1.3.2
-scipy
+scipy==1.11.3
 
 # Visualization
 matplotlib==3.8.0
 
 # Dataset construction
-requests
+requests==2.31.0
 pydriller
-requests-oauthlib
+requests-oauthlib==1.3.1
 
 # Utilities
 tqdm
