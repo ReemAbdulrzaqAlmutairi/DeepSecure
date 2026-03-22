@@ -1,0 +1,10 @@
+Validation for xss_train-vudenc_test-vudenc_seed42 @ thr=0.4242
+accuracy: 0.9923
+precision: 0.9576
+recall: 0.9576
+f1: 0.9576
+roc_auc: 0.9920
+ece: 0.1747
+inference_time_ms: 7937.4902
+throughput: 461.1029
+gpu_vram: 1332.2
