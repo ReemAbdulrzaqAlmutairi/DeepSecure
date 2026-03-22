@@ -1,0 +1,13 @@
+Final Test for command_injection_train-vudenc_test-vudenc_seed42
+base: command_injection_train-vudenc_test-vudenc_seed42
+mode: command_injection
+backbone: microsoft/graphcodebert-base
+seed: 2025
+roc_auc: 0.9993
+ece: 0.3470
+inference_time_ms: 23297.8066
+throughput: 459.8287
+gpu_vram: 1335.5
+
+@ thr=0.5000 -> Acc=0.9988, Prec=0.9872, Rec=0.9851, F1=0.9861
+@ thr=0.2974 (from val) -> Acc=0.9990, Prec=0.9872, Rec=0.9893, F1=0.9883

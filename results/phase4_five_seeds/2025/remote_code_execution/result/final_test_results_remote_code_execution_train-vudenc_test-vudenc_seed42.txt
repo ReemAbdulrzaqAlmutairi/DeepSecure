@@ -1,0 +1,13 @@
+Final Test for remote_code_execution_train-vudenc_test-vudenc_seed42
+base: remote_code_execution_train-vudenc_test-vudenc_seed42
+mode: remote_code_execution
+backbone: microsoft/graphcodebert-base
+seed: 2025
+roc_auc: 0.9995
+ece: 0.3233
+inference_time_ms: 18078.4238
+throughput: 461.4340
+gpu_vram: 1335.5
+
+@ thr=0.5000 -> Acc=0.9986, Prec=0.9816, Rec=0.9907, F1=0.9861
+@ thr=0.7791 (from val) -> Acc=0.9984, Prec=0.9816, Rec=0.9884, F1=0.9850
