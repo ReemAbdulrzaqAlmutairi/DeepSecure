@@ -1,0 +1,10 @@
+Validation for sql_train-vudenc_test-vudenc_seed42 @ thr=0.5000
+accuracy: 0.9893
+precision: 0.9275
+recall: 0.9842
+f1: 0.9550
+roc_auc: 0.9989
+ece: 0.1160
+inference_time_ms: 41310.2695
+throughput: 463.4925
+gpu_vram: 1334.6
