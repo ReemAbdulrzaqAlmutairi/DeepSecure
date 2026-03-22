@@ -1,0 +1,27 @@
+Validation for sql_train-vudenc_test-vudenc_seed42
+base: sql_train-vudenc_test-vudenc_seed42
+mode: sql
+backbone: microsoft/graphcodebert-base
+seed: 42
+batch_size: 128
+
+@ thr=0.5
+accuracy: 0.9897
+precision: 0.9303
+recall: 0.9846
+f1: 0.9567
+roc_auc: 0.9990
+ece: 0.1588
+inference_time_ms: 41442.2461
+throughput: 462.0165
+gpu_vram: 1336.1
+
+Best Threshold (PR-F1 max): 0.6430
+best_val_f1_at_threshold: 0.9593
+@ thr=0.6430
+accuracy: 0.9903
+precision: 0.9373
+recall: 0.9819
+f1: 0.9591
+roc_auc: 0.9990
+ece: 0.1588
