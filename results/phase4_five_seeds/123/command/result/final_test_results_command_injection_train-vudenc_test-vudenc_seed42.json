@@ -1,0 +1,16 @@
+{
+  "mode": "command_injection",
+  "base": "command_injection_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/graphcodebert-base",
+  "seed": "123",
+  "f1_thr050": 0.9882100750267953,
+  "f1_thr_best": 0.9882100750267953,
+  "roc_auc": 0.9996703046934124,
+  "ece": 0.3605403899926752,
+  "inference_time_ms": 23267.28125,
+  "throughput": 460.43196387631235,
+  "peak_vram_mb": 1335.48779296875,
+  "best_threshold": 0.2755415141582489,
+  "n_samples": 10713,
+  "timestamp": "2025-11-15T16:57:55.757210+00:00"
+}
