@@ -1,0 +1,13 @@
+Final Test for broken_authentication_train-vudenc_test-vudenc_seed42
+base: broken_authentication_train-vudenc_test-vudenc_seed42
+mode: broken_authentication
+backbone: microsoft/graphcodebert-base
+seed: 123
+roc_auc: 0.9979
+ece: 0.3054
+inference_time_ms: 14994.9443
+throughput: 459.8883
+gpu_vram: 1335.5
+
+@ thr=0.5000 -> Acc=0.9920, Prec=0.9498, Rec=0.9607, F1=0.9552
+@ thr=0.2602 (from val) -> Acc=0.9923, Prec=0.9470, Rec=0.9672, F1=0.9570

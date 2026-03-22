@@ -1,0 +1,10 @@
+Validation for broken_authentication_train-vudenc_test-vudenc_seed42 @ thr=0.2602
+accuracy: 0.9958
+precision: 0.9719
+recall: 0.9826
+f1: 0.9773
+roc_auc: 0.9989
+ece: 0.2028
+inference_time_ms: 14987.1182
+throughput: 460.1952
+gpu_vram: 1335.5
