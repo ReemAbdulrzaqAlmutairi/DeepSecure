@@ -1,0 +1,16 @@
+{
+  "mode": "sql",
+  "base": "sql_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/graphcodebert-base",
+  "seed": "42",
+  "f1_thr050": 0.9560975609756097,
+  "f1_thr_best": 0.9561752988047809,
+  "roc_auc": 0.9989954051908201,
+  "ece": 0.13238153408259518,
+  "inference_time_ms": 41360.1171875,
+  "throughput": 462.9097135582191,
+  "peak_vram_mb": 1335.48779296875,
+  "best_threshold": 0.39054161310195923,
+  "n_samples": 19146,
+  "timestamp": "2025-11-10T11:57:35.707841+00:00"
+}
