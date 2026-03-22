@@ -1,0 +1,13 @@
+Final Test for sql_train-vudenc_test-vudenc_seed42
+base: sql_train-vudenc_test-vudenc_seed42
+mode: sql
+backbone: microsoft/graphcodebert-base
+seed: 42
+roc_auc: 0.9991
+ece: 0.1600
+inference_time_ms: 41380.7109
+throughput: 462.6793
+gpu_vram: 1335.6
+
+@ thr=0.5000 -> Acc=0.9897, Prec=0.9356, Rec=0.9777, F1=0.9562
+@ thr=0.7488 (from val) -> Acc=0.9899, Prec=0.9434, Rec=0.9700, F1=0.9565
