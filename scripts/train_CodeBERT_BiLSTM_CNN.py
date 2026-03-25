@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-train_CodeBERT_BiLSTM_CNN.py
+train_GraphCodeBERT_BiLSTM_CNN.py
 ----------------------------
-Training script for the hybrid model (CodeBERT/GraphCodeBERT + BiLSTM + CNN).
+Training script for the hybrid model (GraphCodeBERT + BiLSTM + CNN).
 
 Key design notes:
 - Labels are assumed to be normalized already in tokenize_CodeBERT.py
@@ -48,10 +48,10 @@ hf_logging.set_verbosity_error()
 # Config (from env / defaults)
 # -------------------------
 MODE          = os.getenv("MODE", "sql")
-BACKBONE      = os.getenv("BACKBONE", "microsoft/codebert-base")
-BATCH_SIZE    = int(os.getenv("BATCH_SIZE", "32"))
+BACKBONE      = os.getenv("BACKBONE", "microsoft/graphcodebert-base")
+BATCH_SIZE    = int(os.getenv("BATCH_SIZE", "128"))
 EPOCHS        = int(os.getenv("EPOCHS", "100"))
-LR            = float(os.getenv("LR", "2e-5")) # Note: published experiments used LR=1e-5
+LR            = float(os.getenv("LR", "1e-5")) # Note: published experiments used LR=1e-5
 SEED          = int(os.getenv("SEED", "42"))
 EARLY_STOP    = int(os.getenv("EARLY_STOP", "5"))
 TRAIN_WORKERS = int(os.getenv("TRAIN_WORKERS", "0"))
@@ -71,7 +71,7 @@ BASE          = f"{MODE}_train-{TRAIN_DATASET}_test-{TEST_DATASET}_{RUNNAME}"
 POOL_MODE   = os.getenv("POOL_MODE", "token_bilstm")   # token_bilstm | cls | mean
 LSTM_HIDDEN = int(os.getenv("LSTM_HIDDEN", "100"))
 CNN_FILTERS = int(os.getenv("CNN_FILTERS", "64"))
-CNN_KERNELS = os.getenv("CNN_KERNELS", "7,8,9")        # e.g. "3,4,5" or "7,8,9"
+CNN_KERNELS = os.getenv("CNN_KERNELS", "3,4,5")        # e.g. "3,4,5" or "7,8,9"
 DROPOUT     = float(os.getenv("DROPOUT", "0.2"))
 
 # Optional flags
