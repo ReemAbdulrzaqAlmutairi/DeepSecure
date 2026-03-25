@@ -255,9 +255,8 @@ The preprocessing split was generated **once** with `SEED=42` using `makemodel_C
 The datasets used in this study are publicly available on Zenodo (DOI):
 https://doi.org/10.5281/zenodo.19152451
 
-The source code is available on GitHub:
-https://github.com/ReemAlmutairi/DeepSecure
-
+The source code is available on GitHub: 
+https://github.com/ReemAbdulrzaqAlmutairi/DeepSecure. 
 
 ## License
 
