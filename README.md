@@ -76,7 +76,7 @@ Results are saved in `data/plain_broken_authentication.json`.
 Repeat the same steps using `data_collection/hardcoded_credentials/` for Hard-coded Credentials.
 
 For SQL Injection, XSS, Command Injection, and RCE — download the original VUDENC datasets from:
-https://zenodo.org/record/5903630
+[https://zenodo.org/record/5903630](https://zenodo.org/records/3559203)
 
 
 ### 2. Training the DeepSecure Model
@@ -255,9 +255,8 @@ The preprocessing split was generated **once** with `SEED=42` using `makemodel_C
 The datasets used in this study are publicly available on Zenodo (DOI):
 https://doi.org/10.5281/zenodo.19152451
 
-The source code is available on GitHub:
-https://github.com/ReemAlmutairi/DeepSecure
-
+The source code is available on GitHub: 
+https://github.com/ReemAbdulrzaqAlmutairi/DeepSecure. 
 
 ## License
 
