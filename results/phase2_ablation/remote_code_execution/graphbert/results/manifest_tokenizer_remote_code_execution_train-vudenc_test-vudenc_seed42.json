@@ -1,0 +1,38 @@
+{
+  "mode": "remote_code_execution",
+  "base": "remote_code_execution_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/graphcodebert-base",
+  "max_seq_len": 200,
+  "tok_batch": 1024,
+  "train_stats": {
+    "size": 38928,
+    "avg_effective_len": 66.215,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "0": 36987,
+      "1": 1941
+    }
+  },
+  "val_stats": {
+    "size": 8342,
+    "avg_effective_len": 66.372,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "1": 410,
+      "0": 7932
+    }
+  },
+  "final_stats": {
+    "size": 8342,
+    "avg_effective_len": 66.157,
+    "maxlen_ratio": 0.0,
+    "label_dist": {
+      "0": 7911,
+      "1": 431
+    }
+  },
+  "label_origin_policy": "legacy_0_vuln",
+  "label_policy_applied": "normalized_to_1=vuln_0=clean",
+  "normalized_at": "tokenize",
+  "normalized_once_checksum": "ce856f3e7d8e95f0b0754cae3a4aa3a964452030f500b23395d6d6e88fba67b3"
+}

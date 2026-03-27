@@ -1,0 +1,16 @@
+{
+  "mode": "remote_code_execution",
+  "base": "remote_code_execution_train-vudenc_test-vudenc_seed42",
+  "backbone": "microsoft/graphcodebert-base",
+  "seed": "42",
+  "f1_thr050": 0.9895470383275261,
+  "f1_thr_best": 0.9872832369942196,
+  "roc_auc": 0.99991406719945,
+  "ece": 0.21343203853476833,
+  "inference_time_ms": 18042.345703125,
+  "throughput": 462.3567321712018,
+  "peak_vram_mb": 1336.07373046875,
+  "best_threshold": 0.1383884996175766,
+  "n_samples": 8342,
+  "timestamp": "2025-10-28T06:58:03.611080+00:00"
+}

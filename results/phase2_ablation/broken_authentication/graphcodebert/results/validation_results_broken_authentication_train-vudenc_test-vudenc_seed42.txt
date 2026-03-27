@@ -1,0 +1,27 @@
+Validation for broken_authentication_train-vudenc_test-vudenc_seed42
+base: broken_authentication_train-vudenc_test-vudenc_seed42
+mode: broken_authentication
+backbone: microsoft/graphcodebert-base
+seed: 42
+batch_size: 128
+
+@ thr=0.5
+accuracy: 0.9948
+precision: 0.9657
+recall: 0.9779
+f1: 0.9718
+roc_auc: 0.9985
+ece: 0.2458
+inference_time_ms: 14956.3125
+throughput: 461.1431
+gpu_vram: 1336.1
+
+Best Threshold (PR-F1 max): 0.4391
+best_val_f1_at_threshold: 0.9718
+@ thr=0.4391
+accuracy: 0.9946
+precision: 0.9628
+recall: 0.9795
+f1: 0.9711
+roc_auc: 0.9985
+ece: 0.2458
